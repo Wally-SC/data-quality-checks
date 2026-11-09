@@ -1,0 +1,7 @@
+id,nome,email,idade,status,atualizado_em
+1,Ana Souza,ana@exemplo.com,34,ativo,2026-11-05
+2,Bruno Lima,bruno@exemplo.com,29,ativo,2026-11-06
+3,Carla Dias,carla.exemplo.com,41,inativo,2026-11-06
+4,,diego@exemplo.com,17,ativo,2026-11-07
+4,Eva Prado,eva@exemplo.com,230,suspenso,2026-11-07
+6,Fabio Reis,fabio@exemplo.com,abc,ativo,2026-11-07

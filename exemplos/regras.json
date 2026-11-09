@@ -1,0 +1,10 @@
+{
+  "verificacoes": [
+    {"tipo": "unico", "coluna": "id"},
+    {"tipo": "nao_nulo", "coluna": "nome"},
+    {"tipo": "regex", "coluna": "email", "padrao": "[^@\\s]+@[^@\\s]+\\.[a-z]{2,}"},
+    {"tipo": "faixa", "coluna": "idade", "minimo": 18, "maximo": 120},
+    {"tipo": "dominio", "coluna": "status", "valores": ["ativo", "inativo"], "severidade": "aviso"},
+    {"tipo": "frescor", "coluna": "atualizado_em", "max_dias": 3650}
+  ]
+}
